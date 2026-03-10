@@ -24,8 +24,7 @@ const slides = [
     title: "Solar Power for Every Property",
     subtitle: "Home, Office & Farm Solutions",
     description: "Transition to clean energy with our custom solar installations. From residential rooftops to large-scale commercial and agricultural systems.",
-    // image: "/images/solarontherof.jpg",
-    image: "images/solaronfield.jpg",
+    image: "/images/solaronroof.jpg",
     cta: "Explore Solar",
     href: "/services",
     icon: <Sun className="w-6 h-6" />
@@ -35,7 +34,7 @@ const slides = [
     title: "Your Trusted Farming Partner",
     subtitle: "Expertise You Can Count On",
     description: "From seeds to harvest, and from grid to green energy, MNAGENCY is dedicated to supporting your agricultural success every step of the way.",
-    image: "images/fields.jpg",
+    image: "/images/fields.jpg",
     cta: "About MNAGENCY",
     href: "/about",
     icon: <Sprout className="w-6 h-6" />

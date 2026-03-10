@@ -40,7 +40,7 @@ const products = [
     categoryName: "Crop Protection",
     description: "Eco-certified pest control solution that is safe for pollinators and the soil.",
     price: "Eco-Certified",
-    image: "https://images.unsplash.com/photo-1592982537447-6f296d66e5f3?q=80&w=1000&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1464226184884-fa280b87c399?q=80&w=1000&auto=format&fit=crop"
   },
   {
     id: 4,
@@ -49,7 +49,7 @@ const products = [
     categoryName: "Irrigation",
     description: "Complete water-saving drip kit for orchards and row crops. Easy to install.",
     price: "Best Seller",
-    image: "https://images.unsplash.com/photo-1563514227147-6d27139a3285?q=80&w=1000&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1590682680695-43b964a3ae17?q=80&w=1000&auto=format&fit=crop"
   },
   {
     id: 5,
@@ -58,7 +58,7 @@ const products = [
     categoryName: "Fertilizers",
     description: "Specialized formula for rice fields to increase grain weight and improve disease resistance.",
     price: "In Stock",
-    image: "https://images.unsplash.com/photo-1536555132573-be9d7211fb50?q=80&w=1000&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1536657464919-892534f60d6e?q=80&w=1000&auto=format&fit=crop"
   },
   {
     id: 6,
@@ -67,7 +67,7 @@ const products = [
     categoryName: "Seeds & Grains",
     description: "Certified long-grain rice seeds optimized for high-moisture tropical environments.",
     price: "New Arrival",
-    image: "https://images.unsplash.com/photo-1599380629739-1ff4fbf5a2f5?q=80&w=1000&auto=format&fit=crop"
+    image: "/images/fields.jpg"
   },
   {
     id: 7,
@@ -76,7 +76,7 @@ const products = [
     categoryName: "Fertilizers",
     description: "Acid-balanced nutrient mix designed specifically for the unique needs of tea shrubs.",
     price: "Premium Grade",
-    image: "https://images.unsplash.com/photo-1594494024039-b02f482632b1?q=80&w=1000&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1589923188900-85dae523342b?q=80&w=1000&auto=format&fit=crop"
   },
   {
     id: 8,
@@ -85,7 +85,7 @@ const products = [
     categoryName: "Crop Protection",
     description: "High-precision ergonomic tools for maintaining tea gardens and ensuring healthy regrowth.",
     price: "Professional Tool",
-    image: "https://images.unsplash.com/photo-1589923188900-85dae523342b?q=80&w=1000&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?q=80&w=1000&auto=format&fit=crop"
   },
   {
     id: 9,

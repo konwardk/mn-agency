@@ -28,7 +28,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <body className={`${inter.variable} ${outfit.variable} antialiased bg-background text-foreground selection:bg-primary/20 flex min-h-[100dvh] flex-col`}>
         <Navbar />
-        <main className="flex-1 flex flex-col pt-20">
+        <main className="flex-1 flex flex-col">
           {children}
         </main>
         <Footer />

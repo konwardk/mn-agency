@@ -21,11 +21,12 @@ const slides = [
   },
   {
     id: 2,
-    title: "Powering Farms with Solar",
-    subtitle: "Government Subsidized Panels",
-    description: "Transition to clean energy with our top-tier solar panel installations. Take advantage of government subsidies to reduce costs and environmental impact.",
-    image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=2072&auto=format&fit=crop",
-    cta: "Learn About Solar",
+    title: "Solar Power for Every Property",
+    subtitle: "Home, Office & Farm Solutions",
+    description: "Transition to clean energy with our custom solar installations. From residential rooftops to large-scale commercial and agricultural systems.",
+    // image: "/images/solarontherof.jpg",
+    image: "images/solaronfield.jpg",
+    cta: "Explore Solar",
     href: "/services",
     icon: <Sun className="w-6 h-6" />
   },
@@ -34,7 +35,7 @@ const slides = [
     title: "Your Trusted Farming Partner",
     subtitle: "Expertise You Can Count On",
     description: "From seeds to harvest, and from grid to green energy, MNAGENCY is dedicated to supporting your agricultural success every step of the way.",
-    image: "https://images.unsplash.com/photo-1592982537447-6f296d66e5f3?q=80&w=2070&auto=format&fit=crop",
+    image: "images/fields.jpg",
     cta: "About MNAGENCY",
     href: "/about",
     icon: <Sprout className="w-6 h-6" />

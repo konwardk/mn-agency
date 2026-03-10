@@ -53,7 +53,7 @@ export default function ServicesPage() {
               {
                 title: "Residential Solar",
                 desc: "Smart energy for modern homes. Reduce your monthly bills and increase your property value with sleek, high-efficiency rooftop panels.",
-                image: "https://images.unsplash.com/photo-1513694490325-24b3dc82c0bd?q=80&w=800&auto=format&fit=crop",
+                image: "/images/solaronroof.jpg",
                 icon: <Sun className="w-6 h-6 text-amber-500" />
               },
               {

@@ -33,7 +33,7 @@ export function Navbar() {
       className={cn(
         'fixed top-0 w-full z-50 transition-all duration-300',
         isScrolled
-          ? 'bg-background/80 backdrop-blur-md border-b border-border shadow-sm py-3'
+          ? 'bg-white/80 dark:bg-zinc-950/80 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-800 shadow-sm py-3'
           : 'bg-transparent py-5'
       )}
     >
@@ -48,7 +48,7 @@ export function Navbar() {
               </div>
               <span className={cn(
                 "font-heading font-bold text-xl tracking-tight flex items-center transition-colors duration-300",
-                isScrolled ? "text-zinc-900 dark:text-zinc-100" : "text-white"
+                isScrolled ? "text-zinc-900 dark:text-white" : "text-white"
               )}>
                 MN<span className="text-primary">AGENCY</span>
               </span>
@@ -65,7 +65,7 @@ export function Navbar() {
                   href={item.href}
                   className={cn(
                     'text-sm font-bold leading-6 transition-colors hover:text-primary relative py-1 drop-shadow-sm',
-                    isActive ? 'text-primary' : (isScrolled ? 'text-zinc-900 dark:text-white' : 'text-white')
+                    isActive ? 'text-primary' : (isScrolled ? 'text-zinc-900 dark:text-zinc-100' : 'text-white')
                   )}
                 >
                   {item.name}
@@ -89,7 +89,7 @@ export function Navbar() {
               className={cn(
                 "hidden sm:flex rounded-full px-4 py-2 sm:px-5 sm:py-2.5 text-sm font-semibold shadow-sm transition-all hover:scale-105 active:scale-95 items-center gap-2",
                 isScrolled 
-                  ? "bg-zinc-900 dark:bg-white text-white dark:text-zinc-900 hover:bg-zinc-800 dark:hover:bg-zinc-100" 
+                  ? "bg-zinc-900 dark:bg-zinc-100 text-white dark:text-zinc-900 hover:bg-zinc-800 dark:hover:bg-zinc-200" 
                   : "bg-white text-zinc-900 hover:bg-zinc-100 dark:bg-white dark:text-zinc-900"
               )}
             >
@@ -103,7 +103,7 @@ export function Navbar() {
                 type="button"
                 className={cn(
                   "-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 transition-colors duration-300",
-                  isScrolled ? "text-zinc-900 dark:text-zinc-100 bg-background/50 backdrop-blur-sm shadow-sm border border-border" : "text-white hover:bg-white/10"
+                  isScrolled ? "text-zinc-900 dark:text-white bg-white/50 dark:bg-zinc-900/50 backdrop-blur-sm shadow-sm border border-zinc-200 dark:border-zinc-800" : "text-white hover:bg-white/10"
                 )}
                 onClick={() => setMobileMenuOpen(true)}
               >
@@ -123,7 +123,7 @@ export function Navbar() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="fixed inset-0 z-50 bg-background/80 backdrop-blur-sm md:hidden"
+              className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm md:hidden"
               onClick={() => setMobileMenuOpen(false)}
             />
             <motion.div
@@ -131,7 +131,7 @@ export function Navbar() {
               animate={{ x: 0 }}
               exit={{ x: '100%' }}
               transition={{ type: 'spring', damping: 25, stiffness: 200 }}
-              className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-background px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-border md:hidden shadow-xl"
+              className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white dark:bg-zinc-950 px-6 py-6 sm:max-w-sm border-l border-zinc-200 dark:border-zinc-800 md:hidden shadow-xl"
             >
                   <div className="flex items-center justify-between">
                 <Link href="/" className="-m-1.5 p-1.5 flex items-center gap-2" onClick={() => setMobileMenuOpen(false)}>
@@ -139,13 +139,13 @@ export function Navbar() {
                   <div className="flex items-center justify-center bg-primary text-primary-foreground p-1.5 rounded-lg">
                     <Leaf className="h-5 w-5" />
                   </div>
-                  <span className="font-heading font-bold text-xl tracking-tight text-zinc-900 dark:text-zinc-100">
+                  <span className="font-heading font-bold text-xl tracking-tight text-zinc-900 dark:text-white">
                     MN<span className="text-primary">AGENCY</span>
                   </span>
                 </Link>
                 <button
                   type="button"
-                  className="-m-2.5 rounded-md p-2.5 text-zinc-900 dark:text-zinc-100"
+                  className="-m-2.5 rounded-md p-2.5 text-zinc-900 dark:text-white"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   <span className="sr-only">Close menu</span>
@@ -153,7 +153,7 @@ export function Navbar() {
                 </button>
               </div>
               <div className="mt-6 flow-root">
-                <div className="-my-6 divide-y divide-border">
+                <div className="-my-6 divide-y divide-zinc-100 dark:divide-zinc-800">
                   <div className="space-y-2 py-6">
                     {navigation.map((item) => (
                       <Link
@@ -163,7 +163,7 @@ export function Navbar() {
                           '-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7',
                           pathname === item.href
                             ? 'bg-primary/10 text-primary'
-                            : 'text-zinc-900 dark:text-zinc-100 hover:bg-zinc-100 dark:hover:bg-zinc-800'
+                            : 'text-zinc-900 dark:text-zinc-100 hover:bg-zinc-100 dark:hover:bg-zinc-900'
                         )}
                         onClick={() => setMobileMenuOpen(false)}
                       >
@@ -174,7 +174,7 @@ export function Navbar() {
                   <div className="py-6">
                     <Link
                       href="/contact"
-                      className="block w-full rounded-full bg-black px-5 py-3 text-center text-sm font-semibold text-white shadow-sm hover:bg-primary/90"
+                      className="block w-full rounded-full bg-zinc-900 dark:bg-zinc-100 px-5 py-3 text-center text-sm font-semibold text-white dark:text-zinc-900 shadow-sm hover:bg-zinc-800 dark:hover:bg-zinc-200 transition-colors"
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       Get an Estimate

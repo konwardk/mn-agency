@@ -53,7 +53,12 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-bold text-zinc-900 dark:text-white mb-1">Head Office & Store</h3>
-                      <p className="text-zinc-600 dark:text-zinc-400">123 Harvest Road, Green Valley District<br />Agricultural Hub, 10001</p>
+                      <p className="text-zinc-600 dark:text-zinc-400">Tetelitol, Bengenakhowa<br />Golaghat, 785621</p>
+                    </div>
+
+                    <div>
+                      <h3 className="font-bold text-zinc-900 dark:text-white mb-1">2nd Office</h3>
+                      <p className="text-zinc-600 dark:text-zinc-400">Near Golaghat District Court<br />Golaghat, 785621</p>
                     </div>
                   </div>
                   
@@ -63,7 +68,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-bold text-zinc-900 dark:text-white mb-1">Phone Let's Talk</h3>
-                      <p className="text-zinc-600 dark:text-zinc-400">+1 (555) 123-4567<br />Mon-Fri, 8am to 6pm</p>
+                      <p className="text-zinc-600 dark:text-zinc-400">+91 94350 54692 <br />+91 93655 28209<br />Mon-Fri, 8am to 6pm</p>
                     </div>
                   </div>
                   

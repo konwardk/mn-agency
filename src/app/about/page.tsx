@@ -9,12 +9,13 @@ export default function AboutPage() {
     <div className="flex flex-col min-h-screen">
       
       {/* Header Section */}
-      <section className="bg-primary/5 pt-32 pb-24 relative overflow-hidden">
+      <section className="bg-zinc-950 pt-32 pb-24 relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 to-transparent" />
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10 text-center">
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-4xl md:text-6xl font-heading font-extrabold text-zinc-900 dark:text-white mb-6"
+            className="text-4xl md:text-6xl font-heading font-extrabold text-white mb-6"
           >
             Rooted in <span className="text-primary">Agriculture</span>. <br className="hidden md:block"/> Powered by <span className="text-accent">Sunlight</span>.
           </motion.h1>
@@ -22,7 +23,7 @@ export default function AboutPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="text-lg md:text-xl text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto"
+            className="text-lg md:text-xl text-zinc-400 max-w-2xl mx-auto"
           >
             MNAGENCY is a forward-thinking provider of premium agricultural supplies and subsidized green energy solutions, dedicated to the future of farming.
           </motion.p>

@@ -93,19 +93,19 @@ export default function Home() {
                 title: "Premium NPK Fertilizer Blend",
                 category: "Fertilizers",
                 price: "Bulk Pricing Available",
-                image: "https://images.unsplash.com/photo-1589923188900-85dae523342b?q=80&w=1000&auto=format&fit=crop"
+                image: "https://images.unsplash.com/photo-1628352081506-83c43123ed6d?q=80&w=1000&auto=format&fit=crop"
               },
               {
                 title: "High-Yield Hybrid Corn Seeds",
                 category: "Seeds",
                 price: "Seasonal Discount",
-                image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?q=80&w=1000&auto=format&fit=crop"
+                image: "https://images.unsplash.com/photo-1551373884-8a0750074df7?q=80&w=1000&auto=format&fit=crop"
               },
               {
                 title: "Organic Crop Protector",
                 category: "Plant Health",
                 price: "Eco-Certified",
-                image: "https://images.unsplash.com/photo-1563514227147-6d27139a3285?q=80&w=1000&auto=format&fit=crop"
+                image: "https://images.unsplash.com/photo-1592982537447-6f296d66e5f3?q=80&w=1000&auto=format&fit=crop"
               }
             ].map((product, idx) => (
               <div key={idx} className="group flex flex-col bg-zinc-50 dark:bg-zinc-900/50 rounded-2xl overflow-hidden border border-zinc-200 dark:border-zinc-800 hover:border-primary/50 transition-colors">
@@ -129,7 +129,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Government Subsidized Solar Section */}
+      {/* Solar Solutions Section */}
       <section className="py-24 bg-zinc-950 text-white relative overflow-hidden">
         {/* Abstract Background Elements */}
         <div className="absolute top-0 right-0 -mr-32 -mt-32 w-96 h-96 bg-accent/20 rounded-full blur-[100px] pointer-events-none" />
@@ -140,21 +140,21 @@ export default function Home() {
             <div className="space-y-8">
               <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-accent/20 text-accent text-sm font-semibold border border-accent/20">
                 <Zap className="w-4 h-4" />
-                Government Subsidized Energy
+                Solar Solutions for Everyone
               </div>
               <h2 className="text-4xl md:text-5xl font-heading font-bold leading-tight">
-                Power Your Farm with <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-yellow-200">Affordable Solar</span> Solutions.
+                Power Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-yellow-200">Home, Office, or Farm</span> with Solar.
               </h2>
               <p className="text-lg text-zinc-400 leading-relaxed">
-                Transitioning to renewable energy has never been easier or more cost-effective. As a certified vendor, MNAGENCY helps you navigate government subsidies to install high-efficiency solar panels on your property for a fraction of the cost.
+                Transitioning to renewable energy has never been easier. Whether you're looking to reduce your household bills, power a commercial office, or scale an agricultural operation, MNAGENCY provides high-efficiency solar panels tailored to your needs.
               </p>
               
               <ul className="space-y-4 pt-4">
                 {[
-                  "Up to 50% coverage through government grants",
-                  "Significantly lower utility bills year-round",
-                  "Professional installation and maintenance",
-                  "Robust panels designed for agricultural environments"
+                  "Residential rooftop systems for smart homes",
+                  "Commercial-grade installations for office complexes",
+                  "Subsidized agricultural solar for farms",
+                  "Professional installation and 24/7 monitoring"
                 ].map((benefit, i) => (
                   <li key={i} className="flex items-start gap-3">
                     <div className="mt-1 bg-primary/20 p-1 rounded-full text-primary shrink-0">

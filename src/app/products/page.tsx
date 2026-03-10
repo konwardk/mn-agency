@@ -22,7 +22,7 @@ const products = [
     categoryName: "Fertilizers",
     description: "Balanced nitrogen, phosphorus, and potassium mix for optimal root growth and fruit development.",
     price: "Bulk Pricing Available",
-    image: "https://images.unsplash.com/photo-1589923188900-85dae523342b?q=80&w=1000&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1628352081506-83c43123ed6d?q=80&w=1000&auto=format&fit=crop"
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ const products = [
     categoryName: "Seeds & Grains",
     description: "Drought-resistant and high-yielding corn seeds suited for various climates.",
     price: "Seasonal Discount",
-    image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?q=80&w=1000&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1551373884-8a0750074df7?q=80&w=1000&auto=format&fit=crop"
   },
   {
     id: 3,
@@ -40,7 +40,7 @@ const products = [
     categoryName: "Crop Protection",
     description: "Eco-certified pest control solution that is safe for pollinators and the soil.",
     price: "Eco-Certified",
-    image: "https://images.unsplash.com/photo-1563514227147-6d27139a3285?q=80&w=1000&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1592982537447-6f296d66e5f3?q=80&w=1000&auto=format&fit=crop"
   },
   {
     id: 4,
@@ -49,24 +49,51 @@ const products = [
     categoryName: "Irrigation",
     description: "Complete water-saving drip kit for orchards and row crops. Easy to install.",
     price: "Best Seller",
-    image: "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?q=80&w=1000&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1563514227147-6d27139a3285?q=80&w=1000&auto=format&fit=crop"
   },
   {
     id: 5,
-    title: "Wheat Seeds - Premium Grade",
-    category: "seeds",
-    categoryName: "Seeds & Grains",
-    description: "Disease-resistant wheat seeds pre-treated for faster germination.",
+    title: "Paddy Growth Booster",
+    category: "fertilizers",
+    categoryName: "Fertilizers",
+    description: "Specialized formula for rice fields to increase grain weight and improve disease resistance.",
     price: "In Stock",
     image: "https://images.unsplash.com/photo-1536555132573-be9d7211fb50?q=80&w=1000&auto=format&fit=crop"
   },
   {
     id: 6,
-    title: "Liquid Nitrogen Booster",
+    title: "High-Yield Rice Seeds (Long Grain)",
+    category: "seeds",
+    categoryName: "Seeds & Grains",
+    description: "Certified long-grain rice seeds optimized for high-moisture tropical environments.",
+    price: "New Arrival",
+    image: "https://images.unsplash.com/photo-1599380629739-1ff4fbf5a2f5?q=80&w=1000&auto=format&fit=crop"
+  },
+  {
+    id: 7,
+    title: "Tea Plantation Nutrient Mix",
     category: "fertilizers",
     categoryName: "Fertilizers",
-    description: "Fast-acting liquid nitrogen formula for rapidly correcting soil deficiencies.",
-    price: "New Arrival",
+    description: "Acid-balanced nutrient mix designed specifically for the unique needs of tea shrubs.",
+    price: "Premium Grade",
+    image: "https://images.unsplash.com/photo-1594494024039-b02f482632b1?q=80&w=1000&auto=format&fit=crop"
+  },
+  {
+    id: 8,
+    title: "Industrial Tea Pruning Tools",
+    category: "protection",
+    categoryName: "Crop Protection",
+    description: "High-precision ergonomic tools for maintaining tea gardens and ensuring healthy regrowth.",
+    price: "Professional Tool",
+    image: "https://images.unsplash.com/photo-1589923188900-85dae523342b?q=80&w=1000&auto=format&fit=crop"
+  },
+  {
+    id: 9,
+    title: "Automatic Field Sprayer",
+    category: "irrigation",
+    categoryName: "Irrigation",
+    description: "Solar-powered automatic spraying system for large scale tea and rice plantations.",
+    price: "Call for Quote",
     image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=1000&auto=format&fit=crop"
   }
 ];

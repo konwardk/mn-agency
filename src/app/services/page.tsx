@@ -10,7 +10,7 @@ export default function ServicesPage() {
     <div className="flex flex-col min-h-screen">
       {/* Header Section */}
       <section className="bg-zinc-950 pt-32 pb-24 relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=2072&auto=format&fit=crop')] bg-cover bg-center opacity-20 mix-blend-overlay" />
+        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1508514177221-18d162b85552?q=80&w=2000&auto=format&fit=crop')] bg-cover bg-center opacity-20 mix-blend-overlay" />
         <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 to-transparent" />
         
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10 text-center">
@@ -27,7 +27,7 @@ export default function ServicesPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-6xl font-heading font-extrabold text-white mb-6"
           >
-            Subsidized Solar Energy
+            Solar Solutions for <span className="text-accent">Every Property</span>
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -35,20 +35,66 @@ export default function ServicesPage() {
             transition={{ delay: 0.1 }}
             className="text-lg md:text-xl text-zinc-400 max-w-2xl mx-auto"
           >
-            Empower your agricultural operations with sustainable, low-cost energy. We handle the installation, maintenance, and government subsidy paperwork.
+            From high-yield farms to modern offices and cozy homes, we provide custom-engineered solar systems that slash costs and power the future.
           </motion.p>
         </div>
       </section>
 
+      {/* Solutions Grid */}
+      <section className="py-24 bg-zinc-50 dark:bg-zinc-950">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-zinc-900 dark:text-white mb-4">Solutions for Every Need</h2>
+            <p className="text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto">We specialize in tailoring solar energy systems to the specific demands of your environment.</p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[
+              {
+                title: "Residential Solar",
+                desc: "Smart energy for modern homes. Reduce your monthly bills and increase your property value with sleek, high-efficiency rooftop panels.",
+                image: "https://images.unsplash.com/photo-1513694490325-24b3dc82c0bd?q=80&w=800&auto=format&fit=crop",
+                icon: <Sun className="w-6 h-6 text-amber-500" />
+              },
+              {
+                title: "Commercial & Office",
+                desc: "Scale your business with sustainable power. We design large-capacity systems for office buildings and warehouses to minimize overhead.",
+                image: "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800&auto=format&fit=crop",
+                icon: <Factory className="w-6 h-6 text-blue-500" />
+              },
+              {
+                title: "Agricultural Solar",
+                desc: "The backbone of modern farming. Power irrigation, climate control, and processing facilities with subsidized solar installations.",
+                image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?q=80&w=800&auto=format&fit=crop",
+                icon: <Leaf className="w-6 h-6 text-primary" />
+              }
+            ].map((solution, idx) => (
+              <div key={idx} className="group bg-white dark:bg-zinc-900 rounded-3xl overflow-hidden border border-zinc-200 dark:border-zinc-800 shadow-sm hover:shadow-xl transition-all">
+                <div className="relative h-56">
+                  <Image fill src={solution.image} alt={solution.title} className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                  <div className="absolute top-4 left-4 bg-white/90 dark:bg-zinc-900/90 p-2 rounded-xl backdrop-blur-sm">
+                    {solution.icon}
+                  </div>
+                </div>
+                <div className="p-8">
+                  <h3 className="text-xl font-bold text-zinc-900 dark:text-white mb-3">{solution.title}</h3>
+                  <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed">{solution.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Main Content: Info & Subsidies */}
-      <section className="py-24 bg-white dark:bg-zinc-950">
+      <section className="py-24 bg-white dark:bg-zinc-950 border-t border-zinc-100 dark:border-zinc-900">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-24">
             <div className="relative aspect-square md:aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl border border-zinc-200 dark:border-zinc-800">
               <Image 
                 fill 
-                src="https://images.unsplash.com/photo-1588101460334-93ff5652f143?q=80&w=1200&auto=format&fit=crop" 
+                src="https://images.unsplash.com/photo-1613665813446-82a78c468a1d?q=80&w=1200&auto=format&fit=crop" 
                 alt="Solar panels on agricultural land" 
                 className="object-cover" 
               />

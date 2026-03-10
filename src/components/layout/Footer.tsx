@@ -60,11 +60,11 @@ export function Footer() {
             <ul className="space-y-4 text-sm">
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                <span>123 Harvest Road, Green Valley District,<br />Agricultural Hub, 10001</span>
+                <span>Tetelitol, Bengenakhowa<br />Golaghat, 785621</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-4 w-4 text-primary shrink-0" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 94350 54692<br />+91 93655 28209</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-4 w-4 text-primary shrink-0" />

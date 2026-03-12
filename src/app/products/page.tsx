@@ -31,7 +31,7 @@ const products = [
     categoryName: "Seeds & Grains",
     description: "Drought-resistant and high-yielding corn seeds suited for various climates.",
     price: "Seasonal Discount",
-    image: "https://images.unsplash.com/photo-1551373884-8a0750074df7?q=80&w=1000&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?q=80&w=1000&auto=format&fit=crop"
   },
   {
     id: 3,
@@ -130,7 +130,7 @@ export default function ProductsPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-6xl font-heading font-extrabold text-white mb-6"
           >
-            Our Agricultural Products
+            Agricultural Solutions
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -138,7 +138,7 @@ export default function ProductsPage() {
             transition={{ delay: 0.1 }}
             className="text-lg md:text-xl text-zinc-400 max-w-2xl mx-auto"
           >
-            Explore our comprehensive catalog of industry-leading seeds, fertilizers, and crop protection solutions sourced to maximize your yield.
+            Sustainable farming begins with the right inputs. Explore our catalog of high-yield seeds and organic fertilizers, designed to work in harmony with our solar energy solutions.
           </motion.p>
         </div>
       </section>

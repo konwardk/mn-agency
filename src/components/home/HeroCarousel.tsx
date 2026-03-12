@@ -11,32 +11,32 @@ import Link from 'next/link';
 const slides = [
   {
     id: 1,
-    title: "Cultivating Tomorrow's Harvest",
-    subtitle: "Premium Agricultural Solutions",
-    description: "Discover our comprehensive range of high-yield fertilizers and advanced agricultural products tailored for modern farming needs.",
-    image: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?q=80&w=2070&auto=format&fit=crop",
-    cta: "Explore Products",
-    href: "/products",
-    icon: <Sprout className="w-6 h-6" />
+    title: "PM Surya Ghar: Muft Bijli Yojana",
+    subtitle: "Get Up To 300 Units Free Electricity",
+    description: "Benefit from the government subsidy of up to ₹78,000 for rooftop solar. Transition to clean energy and eliminate your electricity bills.",
+    image: "/images/solaronroof.jpg",
+    cta: "Check Your Subsidy",
+    href: "/services",
+    icon: <Sun className="w-6 h-6" />
   },
   {
     id: 2,
     title: "Solar Power for Every Property",
     subtitle: "Home, Office & Farm Solutions",
-    description: "Transition to clean energy with our custom solar installations. From residential rooftops to large-scale commercial and agricultural systems.",
-    image: "/images/solaronroof.jpg",
+    description: "From residential rooftops to large-scale commercial and agricultural systems, we provide custom solar installations for all your needs.",
+    image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?q=80&w=1200&auto=format&fit=crop",
     cta: "Explore Solar",
     href: "/services",
     icon: <Sun className="w-6 h-6" />
   },
   {
     id: 3,
-    title: "Your Trusted Farming Partner",
-    subtitle: "Expertise You Can Count On",
-    description: "From seeds to harvest, and from grid to green energy, MNAGENCY is dedicated to supporting your agricultural success every step of the way.",
+    title: "Cultivating Tomorrow's Harvest",
+    subtitle: "Premium Agricultural Solutions",
+    description: "High-yield fertilizers and advanced agricultural products tailored for modern farming needs, powered by sustainable energy.",
     image: "/images/fields.jpg",
-    cta: "About MNAGENCY",
-    href: "/about",
+    cta: "Explore Products",
+    href: "/products",
     icon: <Sprout className="w-6 h-6" />
   }
 ];

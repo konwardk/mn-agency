@@ -78,7 +78,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-bold text-zinc-900 dark:text-white mb-1">Email Support</h3>
-                      <p className="text-zinc-600 dark:text-zinc-400">contact@mnagency.com<br />We'll respond within 24 hours.</p>
+                      <p className="text-zinc-600 dark:text-zinc-400">mna52172@gmail.com<br />We'll respond within 24 hours.</p>
                     </div>
                   </div>
                 </div>

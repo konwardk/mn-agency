@@ -11,14 +11,14 @@ export function Footer() {
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2 group mb-6 inline-flex">
               <div className="flex items-center justify-center bg-primary text-primary-foreground p-1.5 rounded-lg group-hover:bg-primary/90 transition-colors">
-                <Leaf className="h-5 w-5" />
+                <Sun className="h-5 w-5" />
               </div>
               <span className="font-heading font-bold text-xl tracking-tight text-white flex items-center">
                 MN<span className="text-primary">AGENCY</span>
               </span>
             </Link>
             <p className="text-sm leading-relaxed text-zinc-400">
-              Your comprehensive source for high-quality agricultural products, fertilizers, and government-subsidized solar panel solutions. Cultivating a sustainable future.
+              Leading provider of government-subsidized solar solutions and high-quality agricultural products. Empowering homes and farms with sustainable energy and modern farming solutions.
             </p>
             <div className="flex items-center gap-3 pt-4">
               <span className="flex h-10 w-10 items-center justify-center rounded-full bg-zinc-900 border border-zinc-800 hover:border-primary/50 hover:text-primary transition-colors cursor-pointer">
@@ -40,16 +40,16 @@ export function Footer() {
                 <Link href="/" className="hover:text-primary transition-colors inline-block">Home</Link>
               </li>
               <li>
-                <Link href="/about" className="hover:text-primary transition-colors inline-block">About Us</Link>
-              </li>
-              <li>
-                <Link href="/products" className="hover:text-primary transition-colors inline-block">Agricultural Products</Link>
-              </li>
-              <li>
                 <Link href="/services" className="hover:text-primary transition-colors inline-block">Solar Solutions</Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-primary transition-colors inline-block">Government Subsidies Info</Link>
+                <Link href="/products" className="hover:text-primary transition-colors inline-block">Agriculture</Link>
+              </li>
+              <li>
+                <Link href="/about" className="hover:text-primary transition-colors inline-block">About Us</Link>
+              </li>
+              <li>
+                <a href="https://pmsuryaghar.gov.in" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors inline-block">PM Surya Ghar Yojana</a>
               </li>
             </ul>
           </div>
@@ -68,7 +68,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-4 w-4 text-primary shrink-0" />
-                <span>contact@mnagency.com</span>
+                <span>mna52172@gmail.com</span>
               </li>
             </ul>
           </div>
